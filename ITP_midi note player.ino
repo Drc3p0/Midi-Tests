@@ -1,5 +1,5 @@
 //https://itp.nyu.edu/physcomp/labs/labs-serial-communication/lab-midi-output-using-an-arduino/
-//This code will play a midi note when the pushbutton is pressed, and the midi note can be adjusted using a potentiometer
+//This code will play a Midi note when the pushbutton is pressed, and the midi note can be adjusted using a potentiometer
 
 #include <SoftwareSerial.h>
  
