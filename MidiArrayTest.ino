@@ -1,6 +1,5 @@
-
 #include <SoftwareSerial.h>
-
+//trying to use get midi to cycle up and down throgh melody notes...then add a potentiometer that is mapped to cycle through the melody array.
 
     // notes in the melody:
 int melody[] = {60, 61, 65, 67, 68, 72, 73, 77, 79, 80, 84};   /////////JAPANESE SCALE ACCORDING TO KYUB
