@@ -1,0 +1,22 @@
+Code is written for a Teensy microcontroller and utilized the serial MIDI
+
+ITP Midi note player:  This code will play a midi note for the duration that a pushbutton is pressed, 
+and the midi note can be adjusted using a potentiometer.  
+The midi note can not be actively adjusted while the button is depressed.  
+The note has to be adjusted then the button re-pressed to hear the change.  
+I would prefer to be able to actively change the note while the button is depressed.
+
+
+MidiArrayTest:
+An array of midi notes called melody[ ]; will play when the button is depressed.  
+ex: int melody[] = {60, 61, 65, 67, 68, 72, 73, 77, 79, 80, 84};  is a japanese C scale
+I would like to be able to cycle through the array of midi notes with the potentiometer while the button is depressed.
+I believe this will have to be done using a switch statement like: 
+switch (potentiometerValue) {
+  case 10-20:  playNote1();     break;
+  case 21-30:  playNote2();     break;
+  case 31-40:  playNote3();   break;
+}
+
+I am eventually wanting to incorporate an accelerometer and IR proximity sensor to control various midi scales, but for now 
+I am just experimenting with a potentiometer to control the notes being played.  
